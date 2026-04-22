@@ -14,8 +14,15 @@
 #include <unistd.h>
 
 //place function prototypes here
-void brooklynstitt();
 
+
+
+
+
+
+
+
+void printStudent30(void);
 
 void printInitialsAjewett(void);
 
@@ -24,6 +31,11 @@ void jgFun(void);
 
 
 
+
+
+
+
+void brooklynstitt(void);
 
 int main(int argc, char *argv[])
 {
@@ -192,6 +204,7 @@ int main(int argc, char *argv[])
 			case 30:
 			{
 				puts("room30");
+				printStudent30();
 				break;
 			}
 			case 31:
@@ -433,11 +446,16 @@ int main(int argc, char *argv[])
 
 //place functions here
 
-
 // Case 45:
 void brooklynstitt(void)
 {
 	printf("Initials: BAS\n\n");
+}
+
+void printStudent30(void)
+{
+	printf("Student initials CP\n");
+	return;
 }
 
 void printInitialsAjewett(void)
