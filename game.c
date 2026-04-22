@@ -15,6 +15,7 @@
 
 //place function prototypes here
 
+void brooklynstitt();
 
 
 
@@ -255,6 +256,7 @@ int main(int argc, char *argv[])
 			case 45:
 			{
 				puts("room45");
+				brooklynstitt();
 				break;
 			}
 			case 46:
@@ -423,3 +425,10 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+
+
+// Case 45:
+void brooklynstitt(void)
+{
+	printf("Initials: BAS\n\n");
+}
