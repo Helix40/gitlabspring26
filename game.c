@@ -15,6 +15,7 @@
 
 //place function prototypes here
 
+void theSigmaMethod(void);
 
 
 
@@ -423,3 +424,10 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+
+
+void theSigmaMethod()
+{
+  printf("J.Q.");
+
+}
