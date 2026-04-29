@@ -37,7 +37,7 @@ void printInitialsAjewett(void);
 
 void jgFun(void);
 
-
+void aaGM(void);
 
 
 
@@ -224,7 +224,8 @@ int main(int argc, char *argv[])
 				break;
 			}
 			case 32:
-			{
+			{ 
+				aaGM();
 				puts("room32");
 				break;
 			}
@@ -500,4 +501,9 @@ void printInitialsAjewett(void)
 void jgFun(void)
 {
 	printf("JGB");	
+}
+
+void aaGM(void)
+{
+	printf("AA\n");
 }
