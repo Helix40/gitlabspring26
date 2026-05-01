@@ -40,6 +40,7 @@ void printInitialsSMarkos(void);
 void brooklynstitt(void);
 void PogoAM(void);
 void dleyva14(void);
+void aaGM(void);
 
 int main(int argc, char *argv[])
 {
@@ -233,6 +234,7 @@ int main(int argc, char *argv[])
 			}
 			case 32:
 			{
+				aaGM();
 				puts("room32");
 				break;
 			}
@@ -602,6 +604,11 @@ void printInitialsSMarkos(void)
 void dleyva14(void)
 {
 	printf("DL\n");
+}
+
+void aaGM(void)
+{
+	printf("AA\n");
 }
 
 
