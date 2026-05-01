@@ -42,7 +42,7 @@ void jgFun(void);
 void printInitialsSMarkos(void);
 void brooklynstitt(void);
 void PogoAM(void);
-
+void aaGM(void);
 void room49game(void);
 
 void dleyva14(void);
@@ -246,6 +246,7 @@ int main(int argc, char *argv[])
 			}
 			case 33:
 			{
+				aaGM();
 				puts("room33");
 				break;
 			}
@@ -610,6 +611,11 @@ void fish(void)
 {
 	printf("JF");
 
+}
+
+void aaGM(void)
+{
+    printf("AA\n");
 }
 
 void printStudent30(void)
